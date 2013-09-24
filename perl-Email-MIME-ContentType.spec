@@ -2,13 +2,13 @@
 %define up_version 1.015
 
 Name:		perl-%{module}
-Version:	%perl_convert_version %{up_version}
-Release:	2
+Version:	%perl_convert_version 1.017
+Release:	1
 Summary:	Parse a MIME Content-Type Header
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
-Source:		http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.gz
+Source:		http://www.cpan.org/modules/by-module/Email/Email-MIME-ContentType-1.017.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -75,4 +75,5 @@ make test
 
 * Mon Mar 06 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.01-1mdk
 - first mdk release
+
 
