@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 Summary:	Parse a MIME Content-Type Header
 License:	GPL or Artistic
 Group:		Development/Perl
