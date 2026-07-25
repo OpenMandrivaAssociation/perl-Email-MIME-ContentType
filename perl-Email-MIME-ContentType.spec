@@ -1,14 +1,14 @@
 %define module	Email-MIME-ContentType
-%define upstream_version 1.017
+%define upstream_version 1.028
 
 Name:		perl-%{module}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 Summary:	Parse a MIME Content-Type Header
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{module}
-Source:		http://www.cpan.org/modules/by-module/Email/Email-MIME-ContentType-%{upstream_version}.tar.gz
+URL:		https://github.com/rjbs/Email-MIME-ContentType
+Source:		https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-MIME-ContentType-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
